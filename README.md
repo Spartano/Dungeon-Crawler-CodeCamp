@@ -20,7 +20,9 @@ In this tutorial, I’m targeting  people who know just enough Redux to get by. 
 
 Credit to [Will Stern](https://github.com/learncodeacademy/react-js-tutorials) and [Dan Abramov](https://github.com/gaearon)
 
+#Let's begin!
 
+Now that you know enough Redux to get by, we can begin working. Once you have installed all packages, inside ../src/js you will find folders with all the versions of the client.js. Just replace existing client.js and you are good to go.
 
 ## Installation
 
@@ -28,7 +30,7 @@ Download the repository to your computer and follow the usage guide below.
 
 ## Usage
 
-Get a react environment set up quickly with this boilerplate.
+Get a React and Redux environment set up quickly with this boilerplate.
 
 It includes all the modules you need. All you need to do is download the project, unzip it, run node and start building.
 First install everything then run the webpack dev server
