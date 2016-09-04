@@ -26,11 +26,3 @@ Check out the live demo [here](https://thepeted.github.io/dungeon-crawler).
 
 - The game should be challenging, but theoretically winnable.
 
-## Run locally
-
-Checkout this repo and
-```
-> npm install
-> npm start
-```
-The game will be running at http://localhost:8080/
