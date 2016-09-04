@@ -20,9 +20,9 @@ In this tutorial, I’m targeting  people who know just enough Redux to get by. 
 
 Credit to [Will Stern](https://github.com/learncodeacademy/react-js-tutorials) and [Dan Abramov](https://github.com/gaearon)
 
-#Let's begin!
+#Very important!
 
-Now that you know enough Redux to get by, we can begin working. Once you have installed all packages, inside ../src/js you will find folders with all the versions of the client.js. Just replace existing client.js and you are good to go.
+Once you have installed all packages, just replace everithing inside ../src with other versions found inside ../src_Dif_Versions and you are good to go.
 
 ## Installation
 
