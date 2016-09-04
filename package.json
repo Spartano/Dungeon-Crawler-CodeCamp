@@ -1,0 +1,68 @@
+{
+  "name": "grid-dungeon-crawler",
+  "version": "1.0.0",
+  "description": "Roguelike with randomly generated levels",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "deployghpages": "gh-pages -d build",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepeted/dungeon-crawler"
+  },
+  "author": "Peter Daily",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/thepeted/dungeon-crawler/issues"
+  },
+  "homepage": "http://thepeted.github.io/dungeon-crawler",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "clean-webpack-plugin": "^0.1.8",
+    "css-loader": "^0.23.1",
+    "eslint-config-xo-react": "^0.7.0",
+    "eslint-plugin-react": "^5.0.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gh-pages": "^0.11.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.15.0",
+    "node-sass": "^3.4.2",
+    "npm-install-webpack-plugin": "^3.0.0",
+    "postcss-loader": "^0.8.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.10.0",
+    "xo": "^0.15.0"
+  },
+  "dependencies": {
+    "lodash": "^4.11.1",
+    "react": "^15.0.1",
+    "react-addons-update": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.4.0",
+    "redux-thunk": "^2.0.1",
+    "redux-batched-actions": "^0.1.2"
+  },
+  "xo": {
+		"env": ["node", "browser"],
+    "esnext": true,
+    "extends": "xo-react",
+    "rules": {
+      "babel/object-curly-spacing": "off",
+      "babel/array-bracket-spacing": "off",
+			"babel/arrow-parens": "off",
+			"react/prop-types": "off"
+    }
+  }
+}
