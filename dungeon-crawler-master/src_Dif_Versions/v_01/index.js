@@ -87,7 +87,6 @@ const createDungeon = () => {
 		roomValues.push(west);
 
 		const placedRooms = [];
-    console.log(roomValues);
 		roomValues.forEach(room => {
 			if (isValidRoomPlacement(grid, room)) {
 				// place room
@@ -98,6 +97,7 @@ const createDungeon = () => {
 				placedRooms.push(room);
 			}
 		});
+		  console.log(placedRooms);
 		return {grid, placedRooms};
 	};
 
