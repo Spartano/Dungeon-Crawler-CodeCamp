@@ -37,7 +37,7 @@ First install everything then run the webpack dev server
 
 ```
 npm install
-npm run dev
+npm start
 ```
 
 This will get your app running on http://localhost:8080
