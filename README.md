@@ -1,4 +1,4 @@
-# CodeCamp-Dungeon-Crawler
+# Dungeon-Crawler-CodeCamp
 Redux Introduction For People Who Know Just Enough React To Get By
 
 Thanks to [Peter Daily](https://github.com/thepeted) for providing the entire code, i am just disecting it and creating different versions, starting from the first with an basic code, and finishing with the last that has the complete project.
